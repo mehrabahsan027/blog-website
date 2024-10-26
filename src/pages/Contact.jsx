@@ -6,6 +6,8 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setEmail('')
+    setMessage('')
   };
   return (
     <section className="my-8 px-4">
